@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 25%;
+    height: 400px;
+}
+
+body {
+    display: grid;
+    /* place-items: center; */
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    align-items: right;
+}
+
+img {
+    width: 75%;
+    height: 85%;
+    object-fit: cover;
+    transition: 1s ease-in-out;
+}
+
+img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}

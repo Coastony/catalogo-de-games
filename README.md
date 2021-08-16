@@ -1,2 +1,2 @@
-# catalogo-de-games
-Catálogo de games criado com HTML, CSS e Bootstrap.
+# meusite
+Criando a partir de HTML, CSS, JS
