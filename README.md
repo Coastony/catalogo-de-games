@@ -1,2 +1,2 @@
 # meusite
-Criando a partir de HTML, CSS, JS
+Criando a partir de HTML, CSS e Bootstrap
